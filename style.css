@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://images.unsplash.com/photo-1591109864300-46c417fa0475?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+.btn{
+    background-color: white;
+    width: 90px;
+    padding: 14px;
+    margin-left: 35%;
+    margin-right: 20px;
+    border-radius: 25px;
+    transition: 0.4s ease;
+    border: none;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.btn1{
+    background-color: white;
+    width: 90px;
+    padding: 14px;
+    border-radius: 25px;
+    transition: 0.4s ease;
+    border: none;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+
+@media (min-width:320px) and (max-width:480px){
+    body{
+        overflow: hidden;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1567027757540-7b572280fa22?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .btn{
+        background-color: white;
+        width: 90px;
+        padding: 14px;
+        margin-left: 23%;
+        margin-right: 17px;
+        border-radius: 25px;
+        transition: 0.4s ease;
+        border: none;
+    }
+    .btn:hover{
+        background-color: black;
+        color: white;
+    }
+    .btn1{
+        background-color: white;
+        width: 90px;
+        padding: 14px;
+        border-radius: 25px;
+        transition: 0.4s ease;
+        border: none;
+    }
+    .btn1:hover{
+        background-color: black;
+        color: white;
+    }
+}
